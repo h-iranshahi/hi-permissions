@@ -1,0 +1,28 @@
+{
+    "name": "h-iranshahi/hi-permissions",
+    "description": "A Laravel package for seamless role-based access control and permission management, designed to simplify and enhance user authorization handling across applications.",    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iransh\\HiPermissions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "h-iranshahi",
+            "email": "h.iranshahi67@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iransh\\HiPermissions\\ServiceProvider"
+            ]
+        }
+    }
+}
